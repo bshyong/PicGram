@@ -14,5 +14,6 @@ class FeedItem: NSManagedObject {
 
     @NSManaged var caption: String
     @NSManaged var image: NSData
+    @NSManaged var thumbNail: NSData
 
 }
